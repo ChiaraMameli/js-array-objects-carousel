@@ -96,5 +96,4 @@ prevButton.addEventListener('click', function(){
     imagesDisplay[currentActiveIndex].classList.add('active');
     titleDisplay[currentActiveIndex].classList.add('active');
     descriptionDisplay[currentActiveIndex].classList.add('active');
-
 })
