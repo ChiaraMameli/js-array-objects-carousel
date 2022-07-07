@@ -1,0 +1,45 @@
+.gallery,
+#carousel {
+    width: 800px;
+    height: 600px;
+    margin: 50px auto;
+}
+
+#carousel .gallery img {
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+    display: none;
+    position: absolute;
+}
+
+h1,
+p {
+    display: none;
+    position: relative;
+    color: #FFF;
+    text-align: end;
+    padding: 10px 20px;
+}
+
+#carousel .gallery .active,
+h1 .active,
+p .active {
+    display: block;
+}
+
+#carousel i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+#carousel .fa-circle-chevron-left{
+    right: 105%;
+}
+
+#carousel .fa-circle-chevron-right{
+    left: 105%;
+}
